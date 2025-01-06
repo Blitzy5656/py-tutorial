@@ -9,12 +9,13 @@
 
 body {
     font-family: var(--font-main);
-    color: rgb(255,255,255);
+    font-size: 16px;
+    color: rgb(235,235,235);
     background-color: rgb(28,28,28);
 }
 
 .container {
-    width: 70%;
+    width: 55.555%; /* fithism reference */
     margin: auto;
 }
 
@@ -33,6 +34,8 @@ body {
     background-color: rgb(24,27,33);
     border: 2px solod rgb(44,44,44);
     border-radius: 8px;
+    padding: 8px;
+    margin: auto;
 }
 
 .codeBox:hover {
@@ -49,6 +52,7 @@ body {
     overflow: hidden;
 }
 
+/* CODE --> HLs */
 .functionHL /* 'HL' stands for highlight */ {
     color: rgb(245,158,66);
 }
