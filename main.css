@@ -20,3 +20,7 @@ body {
 .codeBox {
     background-color: rgb(24,27,33);
 }
+
+.container-lg px-3 my-5 markdown-body {
+    display: none;
+}
