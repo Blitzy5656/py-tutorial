@@ -1,3 +1,4 @@
+/* GENERAL */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
@@ -12,11 +13,26 @@ body {
     background-color: rgb(28,28,28);
 }
 
+/* CODE */
 .inlineCode {
     font-family: var(--font-mono);
+    background-color: rgb(37,37,37);
+    border: 1.5px solid rgb(44,44,44);
+    padding: 1px;
     display: inline-block;
 }
 
 .codeBox {
+    color: rgb(190,190,190);
+    font-family: var(--font-mono);
     background-color: rgb(24,27,33);
+}
+
+.codeBox:hover {
+    transform: scale(1.1);
+    transition: all 0.7s cubic-bezier(0.79, 0.63, 0.54, 0.13);
+}
+
+.codeBox function {
+    color: rgb(245,158,66);
 }
