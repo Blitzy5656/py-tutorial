@@ -85,6 +85,7 @@ code:hover {
 
 var {
     color: rgb(73,184,218);
+    font-family: monospace;
 }
 
 .numberHL {
