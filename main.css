@@ -59,11 +59,11 @@ h6 {
     background-color: rgb(41,46,56);
     border: 2px solid rgba(48,48,48,0.8);
     border-radius: 8px;
-    max-width: 700px;
+    max-width: 600px;
     overflow: scroll;
     white-space: pre;
     padding: 8px;
-    margin: 0px auto 0px auto; /* I dont care that this looks weird, make it yourself bozo */
+    margin: 16px auto 16px auto; /* I dont care that this looks weird, make it yourself bozo */
 }
 
 .codeBox:hover {
