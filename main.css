@@ -45,15 +45,16 @@ h6 {
 }
 
 /* CODE */
-.inlineCode {
-    font-family: var(--font-mono);
+samp {
+    font-family: monospace;
     background-color: rgb(37,37,37);
     border: 1.5px solid rgb(44,44,44);
     padding: 1px;
     display: inline-block;
+
 }
 
-.codeBox {
+.code {
     color: rgb(190,190,190);
     font-family: var(--font-mono);
     background-color: rgb(41,46,56);
@@ -64,9 +65,10 @@ h6 {
     white-space: pre;
     padding: 8px;
     margin: 16px auto 16px auto; /* I dont care that this looks weird, make it yourself bozo */
+    font-family: monospace;
 }
 
-.codeBox:hover {
+code:hover {
     transform: scale(1.05);
     transition: all 0.6s cubic-bezier(0.06, 0.98, 0.41, 0.93);
     cursor: help;
@@ -81,8 +83,9 @@ h6 {
     color: rgb(69,194,60);
 }
 
-.variableHL {
+var {
     color: rgb(73,184,218);
+    font-family: monospace;
 }
 
 .numberHL {
