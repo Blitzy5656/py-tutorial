@@ -69,7 +69,7 @@ samp {
     color: rgb(190,190,190);
     font-family: var(--font-mono);
     background-color: rgb(41,46,56);
-    border: 2px solid rgba(48,48,48,0.8);
+    border: 2px solid rgba(34,34,34,0.8);
     border-radius: 8px;
     max-width: 600px;
     overflow: scroll;
