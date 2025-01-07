@@ -54,7 +54,7 @@ samp {
 
 }
 
-.code {
+.codeBox {
     color: rgb(190,190,190);
     font-family: var(--font-mono);
     background-color: rgb(41,46,56);
@@ -68,7 +68,7 @@ samp {
     font-family: monospace;
 }
 
-code:hover {
+codeBox:hover {
     transform: scale(1.05);
     transition: all 0.6s cubic-bezier(0.06, 0.98, 0.41, 0.93);
     cursor: help;
