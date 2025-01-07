@@ -24,6 +24,10 @@ body {
     height: 100%;
 }
 
+.content {
+    padding: 0px 20px;
+}
+
 .mainHeader {
     font-family: var(--font-glitch);
     border-bottom: 1.5px solid rgb(44,44,44);
