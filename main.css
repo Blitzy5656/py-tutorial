@@ -46,14 +46,15 @@ h6 {
 
 /* CODE */
 samp {
-    font-family: var(--font-mono);
+    font-family: monospace;
     background-color: rgb(37,37,37);
     border: 1.5px solid rgb(44,44,44);
     padding: 1px;
     display: inline-block;
+
 }
 
-code {
+.code {
     color: rgb(190,190,190);
     font-family: var(--font-mono);
     background-color: rgb(41,46,56);
@@ -64,6 +65,7 @@ code {
     white-space: pre;
     padding: 8px;
     margin: 16px auto 16px auto; /* I dont care that this looks weird, make it yourself bozo */
+    font-family: monospace;
 }
 
 code:hover {
