@@ -56,14 +56,14 @@ h6 {
 .codeBox {
     color: rgb(190,190,190);
     font-family: var(--font-mono);
-    background-color: rgb(41, 46, 56);
-    border: 2px solid rgb(56, 56, 56);
+    background-color: rgb(41,46,56);
+    border: 2px solid rgba(48,48,48,0.8);
     border-radius: 8px;
     max-width: 700px;
     overflow: scroll;
     white-space: pre;
     padding: 8px;
-    margin: 8px auto 8px auto; /* I dont care that this looks weird, make it yourself bozo */
+    margin: 0px auto 0px auto; /* I dont care that this looks weird, make it yourself bozo */
 }
 
 .codeBox:hover {
