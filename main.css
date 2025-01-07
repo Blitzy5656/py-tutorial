@@ -2,17 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
+    /* normal */
     --font-main: Rubik;
     --font-bold: Rubik Mono One;
     --font-glitch: 'Rubik 80s Fade';
     --font-mono: Ubuntu Mono;
+
+    /* bodyBackground */
+    --bg-color: rgb(36,36,36);
+    --bg-color-light: rgb(46,46,46);
+    --bg-color-dark: rgb(26,26,26);
 }
 
 body {
     font-family: var(--font-main);
     font-size: 16px;
     color: rgb(215,215,215);
-    background-color: rgb(36,36,36);
+    background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color), var(--bg-color-light));
+    animation: bodyBackground 55.555s linear 0s infinite both;
+    /* use background-color as a fallback */
+    /* background-color: rgb(36,36,36); */
 }
 
 .container {
@@ -47,11 +56,11 @@ h6 {
 /* CODE */
 samp {
     font-family: var(--font-mono);
+    font-style: normal;
     background-color: rgb(37,37,37);
     border: 1.5px solid rgb(44,44,44);
-    padding: 1px;
+    padding: 0.5px;
     display: inline-block;
-
 }
 
 .codeBox {
@@ -89,4 +98,13 @@ var {
 
 .numberHL {
     color: rgb(168,50,113);
+}
+
+/* ANIMATIONS */
+/* ANIMATIONS --> bodyBackground */
+@keyframes bodyBackground {
+    0%    {background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color), var(--bg-color-light));}
+    33.3% {background-image: linear-gradient(to right, var(--bg-color-light), var(--bg-color-dark), var(--bg-color));}
+    66.6% {background-image: linear-gradient(to right, var(--bg-color), var(--bg-color-light), var(--bg-color-dark));}
+    100%  {background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color), var(--bg-color-light));}
 }
