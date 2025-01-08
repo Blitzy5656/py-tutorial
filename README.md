@@ -1,3 +1,3 @@
 # py-tutorial
 
-https://python-tutorial-stygian.netlify.app/main.html
+https://python-tutorial-stygian.netlify.app/
