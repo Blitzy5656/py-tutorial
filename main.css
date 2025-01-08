@@ -54,7 +54,7 @@ h6 {
     top:0;
     left:-50%;
     width:300%;
-    animation: backgroundGradAnim calc(((5.555s  * 5.5) * .555) - (5.5555s * .55)) ease-in-out 0s infinite; /*The Cosmic Starfish*/
+    animation: backgroundGradAnim /*calc(((5.555s  * 5.5) * .555) - (5.5555s * .55))*/ 55.555s ease-in-out 0s infinite; /*The Cosmic Starfish*/
     height:100%;
     background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color-light), var(--bg-color-dark)); 
     position: fixed;
