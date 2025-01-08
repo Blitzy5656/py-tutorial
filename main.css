@@ -151,8 +151,9 @@ var {
 .numberHL {
     color: rgb(168,50,113);
 }
-.strHl {
-    color:#ea873e;
+
+.stringHL {
+    color: #e28038;
 }
 /* ANIMATIONS */
 /* ANIMATIONS --> bodyBackground */

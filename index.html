@@ -79,7 +79,7 @@
                 <span class="functionHL">while</span> <var>i</var> &lt; <span class="numberHL">6</span>:
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<var>i</var>)
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">if</span> <var>i</var> == <span class="numberHL">3</span>:
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="strHL">"i equals 3"</span>)
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="stringHL">"i equals 3"</span>)
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<var>i</var> += <span class="numberHL">1</span>
             </div>
             This code will output:
@@ -93,6 +93,17 @@
             </div>
             <p>While loops run the code indented below them until the condition specified (<samp>i &lt; 6</samp> in this case) is false. this can be used to create an infinite loop (<samp>While True:</samp>), though this can be a stress to your computer and is generally considered bad practice.</p>
             <h2 id="Conditionals">Conditionals (if-else statements)</h2>
+            <p>Conditionals tell your computer whether or not to do something. You have already seen an example of this above with the <samp>if i == 3</samp> in the while loop. the most common types of conditionals are if and if-else statements. </p>
+            <div class="codeBox">
+                a = 200
+                b = 33
+                if b > a:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("b is greater than a")
+                elif a == b:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("a and b are equal")
+                else:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("a is greater than b")
+            </div>
             <h2 id="Functions">Functions</h2>
             <h2 id="Lists">Lists</h2>
         </div>
