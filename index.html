@@ -58,7 +58,40 @@
               <li>Finally, the last <samp>print()</samp> writes "email(s)" onto the screen.</li>
             </ol>
             <h2 id="Loops">Loops (for, while)</h2>
-            <p>Loops are an incredibly important part of all code. They are used primarily to repeat sections of code multiple times withou</p>
+            <p>Loops are an incredibly important part of all code. They are used primarily to repeat sections of code 
+                multiple times without writing it multiple times. There are two different types of loops, which are both shown below.</p>
+            <h3>For loops:</h3>
+            <div class="codeBox">
+                <span class="functionHL">for</span> <var>x</var> <span class="functionHL">in</span> <span class="functionHL">range</span>(<span class="numberHL">2</span>, <span class="numberHL">6</span>):
+                    <span class="functionHL">print</span>(<var>x</var>)
+            </div>
+            This code will output:
+            <div class="codeBox consoleLog">
+                2
+                3
+                4
+                5
+            </div>
+            <p>If you couldn't tell, for loops will take a variable, in this case <var>x</var>, and repeat it through a function or string, which is <samp>range(2,6)</samp> here. Every time the variable (<var>x</var>) increments, all the code indented in the loop will run.</p>
+            <h3>For loops:</h3>
+            <div class="codeBox">
+                <var>i</var> = <span class="numberHL">1</span>
+                <span class="functionHL">while</span> <var>i</var> &lt; <span class="numberHL">6</span>:
+                    <span class="functionHL">print</span>(<var>i</var>)
+                    <span class="functionHL">if</span> <var>i</var> == <span class="numberHL">3</span>:
+                        <span class="functionHL">print</span>(<span class="strHL">"i equals 3"</span>)
+                    <var>i</var> += <span class="numberHL">1</span>
+            </div>
+            This code will output:
+            <div class="codeBox consoleLog">
+                1
+                2
+                3
+                i equals 3
+                4
+                5
+            </div>
+            <p>While loops run the code indented below them until the condition specified (<samp>i &lt; 6</samp> in this case) is false. this can be used to create an infinite loop (<samp>While True:</samp>), though this can be a stress to your computer and is generally considered bad practice.</p>
             <h2 id="Conditionals">Conditionals (if-else statements)</h2>
             <h2 id="Functions">Functions</h2>
             <h2 id="Lists">Lists</h2>

@@ -123,7 +123,7 @@ samp {
     scrollbar-width: none;  /* Firefox */
     transition: all 0.6s cubic-bezier(0.06, 0.98, 0.41, 0.93);
 }
-
+.consoleLog {background-color: black; color: white !important;}
 .codeBox:hover {
     transform: scale(1.05);
     cursor: help;
@@ -151,7 +151,9 @@ var {
 .numberHL {
     color: rgb(168,50,113);
 }
-
+.strHl {
+    color:#ea873e;
+}
 /* ANIMATIONS */
 /* ANIMATIONS --> bodyBackground */
 /*@keyframes bodyBackground {
