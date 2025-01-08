@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+
+/*-----main-----*/
+
+
 :root {
     /* normal */
     --font-main: 'Rubik';
@@ -22,6 +26,25 @@ body {
     color: rgb(215,215,215);
 }
 
+a {
+    text-decoration:none;
+    font-weight:bold;
+    color:#75ABBC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-bold);
+}
+
+
+/*-----background-----*/
+
+
 .backgroundGradient {
     z-index: -2;
     top:0;
@@ -32,6 +55,10 @@ body {
     background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color-light), var(--bg-color-dark)); 
     position: fixed;
 }
+
+
+/*-----main-content-----*/
+
 
 .container {
     background-color: rgba(28,28,28,0.75);
@@ -53,23 +80,24 @@ body {
     margin: 12px 0px 0px 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-bold);
-}
+
+/*-----blocks-----*/
+
 
 .block {
-   border: 2px solid rgb(0,0,0);
-   background-color: var(--bg-color-light);
-   padding: 8px;
-   margin: 16px auto 16px auto;
-
+    border: 2px solid rgba(0,0,0,0.3);
+    background-color: var(--bg-color-light);
+    padding: 0px 8px;
+    margin: 16px auto 16px auto;
+    border-radius: 8px;
+    
 }
+.block li {padding:3px 0px;}
+
+
 /* CODE */
+
+
 samp {
     font-family: var(--font-mono);
     font-style: normal;
@@ -92,19 +120,17 @@ samp {
     margin: 16px auto 16px auto;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    
+    transition: all 0.6s cubic-bezier(0.06, 0.98, 0.41, 0.93);
 }
 
 .codeBox:hover {
     transform: scale(1.05);
-    transition: all 0.6s cubic-bezier(0.06, 0.98, 0.41, 0.93);
     cursor: help;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .example::-webkit-scrollbar {
     display: none;
-  }
-  
+}
 
 /* CODE --> HLs */ /* 'HL' stands for highlight */
 .functionHL {
