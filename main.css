@@ -29,11 +29,11 @@ body {
 .backgroundGradient {
     z-index: -2;
     top:0;
-    left:0;
-    width:150%;
-    animation: slide 5.5555s ease-in-out 0s infinite;
+    left:-50%;
+    width:300%;
+    animation: backgroundGradAnim 5.5555s ease-in-out 0s infinite;
     height:100%;
-    background-image: linear-gradient(to right, var(--bg-color), var(--bg-color-light), var(--bg-color-dark));
+    background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color-light), var(--bg-color-dark));
     position: fixed;
 }
 
@@ -124,10 +124,12 @@ var {
 }*/
 @keyframes backgroundGradAnim {
     0% {
-        transform: translateX(-25%);
+        transform: translateX(0%);
     }
-
+    50% {
+        transform: translateX(-50%);
+    }
     100% {
-        transform: translateX(25%);
+        transform: translateX(0%);
     }
 }
