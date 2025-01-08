@@ -28,9 +28,9 @@
             </div>
             <h2 id="variables">Variables</h2>
             <p>One of the most important things in any programming language
-            are called variables. You can think of variables
+            are called <dfn>variables</dfn>. You can think of <dfn>variables</dfn>
             as if they were a box with stuff in them. Here is an example of 
-            how a variable might be used in a real program:</p>
+            how a <dfn>variable</dfn> might be used in a real program:</p>
             <div class="codeBox">
                 <var>emails</var> = <span class="numberHL">10</span>
 
@@ -39,40 +39,42 @@
                 <span class="functionHL">print</span>(<span class="stringHL">"email(s)"</span>)
             </div>
             <p>This may be a little confusing so let me break it down for you.</p><br>
-            <p>First, at the very start of the program, we set the variable like this:</p> 
+            <p>First, at the very start of the program, we set the <dfn>variable</dfn> like this:</p> 
             <ol>
-                <li>Type the variable's name. This MUST start with either an upper/lowercase character or 
+                <li>Type the <dfn>variable's</dfn> name. This MUST start with either an upper/lowercase character or 
             an underscore (_)</li>
                 <li>Type a space.</li>
-                <li>Type an equals sign (=). This assigns the variable with its property. You can think of it 
+                <li>Type an equals sign (=). This assigns the <dfn>variable<dfn> with its property. You can think of it 
                 like labeling a box.</li>
-                <li>Type your variable. This can be a number, like in the example above, a string of text (remember to enclose
-                that string of text in either single ('') or double ("") quotes), or another variable.</li>
+                <li>Type your <dfn>variable</dfn>. This can be a number, like in the example above, a string of text (remember to enclose
+                that string of text in either single ('') or double ("") quotes), or another <dfn>variable</dfn>.</li>
             </ol>
-            <p>What does the <samp>print()</samp> function do? This function simply
+            <p>What does the <samp>print()</samp> function do? This <dfn>function</dfn> simply
             writes a line of text onto the screen. 
-            So, here is what all of those <samp>print()</samp> functions do:</p>
+            So, here is what all of those <samp>print()</samp> <dfn>functions</dfn> do:</p>
             <ol>
               <li>The first <samp>print()</samp> writes "You have:" onto the screen</li>
               <li>Then, the next <samp>print()</samp> writes our variable onto the screen.</li>
               <li>Finally, the last <samp>print()</samp> writes "email(s)" onto the screen.</li>
             </ol>
             <h2 id="Loops">Loops (for, while)</h2>
-            <p>Loops are an incredibly important part of all code. They are used primarily to repeat sections of code 
-                multiple times without writing it multiple times. There are two different types of loops, which are both shown below.</p>
+            <p><dfn>Loops</dfn> are an incredibly important part of all code. They are used primarily to repeat sections of code 
+                multiple times without writing it multiple times. There are two different types of <dfn>loops</dfn>, which are both shown below.</p>
             <h3>For loops:</h3>
             <div class="codeBox">
-                <span class="functionHL">for</span> <var>x</var> <span class="functionHL">in</span> <span class="functionHL">range</span>(<span class="numberHL">2</span>, <span class="numberHL">6</span>):
+                <span class="functionHL">for</span> <var>x</var> <span class="functionHL">in range</span>(<span class="numberHL">2</span>, <span class="numberHL">6</span>):
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<var>x</var>)
             </div>
             This code will output:
             <div class="codeBox consoleLog">
-                2
-                3
-                4
-                5
+                <?php
+                echo "2"
+                echo "3"
+                echo "4"
+                echo "5" 
+                ?>
             </div>
-            <p>If you couldn't tell, for loops will take a variable, in this case <var>x</var>, and repeat it through a function or string, which is <samp>range(2,6)</samp> here. Every time the variable (<var>x</var>) increments, all the code indented in the loop will run.</p>
+            <p>If you couldn't tell, <samp>for loops</samp> will take a variable, in this case <var>x</var>, and repeat it through a <dfn>function</dfn> or string, which is <samp>range(2,6)</samp> here. Every time the <dfn>variable</dfn> (<var>x</var>) increments, all the code indented in the <dfn>loop</dfn> will run.</p>
             <h3>For loops:</h3>
             <div class="codeBox">
                 <var>i</var> = <span class="numberHL">1</span>
@@ -91,9 +93,9 @@
                 4
                 5
             </div>
-            <p>While loops run the code indented below them until the condition specified (<samp>i &lt; 6</samp> in this case) is false. this can be used to create an infinite loop (<samp>While True:</samp>), though this can be a stress to your computer and is generally considered bad practice.</p>
+            <p><samp>While loops</samp> run the code indented below them until the condition specified (<samp>i &lt; 6</samp> in this case) is false. This can be used to create an infinite <dfn>loop</dfn> (<samp>While True:</samp>), though this can be a stress to your computer and is generally considered bad practice.</p>
             <h2 id="Conditionals">Conditionals (if-else statements)</h2>
-            <p>Conditionals tell your computer whether or not to do something. You have already seen an example of this above with the <samp>if i == 3</samp> in the while loop. the most common types of conditionals are if and if-else statements. </p>
+            <p><dfn>Conditionals</dfn> tell your computer whether or not to do something. You have already seen an example of this above with the <samp>if i == 3</samp> in the <samp>while loop</samp>. The most common types of <dfn>conditionals</dfn> are <samp>if</samp> and <samp>if-else</samp> statements. </p>
             <div class="codeBox">
                 a = 200
                 b = 33
@@ -104,8 +106,8 @@
                 else:
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(<span class="stringHL">"a is greater than b"</span>)
             </div>
-            <p>This might look complicated, but in reality it's pretty simple. first off we define <var>a</var> as 200 and <var>b</var> as 33.
-            Then we get to the first if statement (<samp>if b &gt; a</samp></p>
+            <p>This might look complicated, but in reality it's pretty simple. First off we define <var>a</var> as 200 and <var>b</var> as 33.
+            Then we get to the first <samp>if</samp> statement (<samp>if b &gt; a</samp>)</p>
             <h2 id="Functions">Functions</h2>
             <h2 id="Lists">Lists</h2>
         </div>
