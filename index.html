@@ -62,7 +62,7 @@
                 multiple times without writing it multiple times. There are two different types of <dfn>loops</dfn>, which are both shown below.</p>
             <h3>For loops:</h3>
             <div class="codeBox">
-                <span class="functionHL">for</span> <var>x</var> <span class="functionHL">in range</span>(<span class="numberHL">2</span>, <span class="numberHL">6</span>):
+                <span class="keywordHL">for</span> <var>x</var> <span class="keywordHL">in</span> <span class="functionHL">range</span>(<span class="numberHL">2</span>, <span class="numberHL">6</span>):
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<var>x</var>)
             </div>
             This code will output:
@@ -73,12 +73,12 @@
                 5
             </div>
             <p>If you couldn't tell, <samp>for loops</samp> will take a variable, in this case <var>x</var>, and repeat it through a <dfn>function</dfn> or string, which is <samp>range(2,6)</samp> here. Every time the <dfn>variable</dfn> (<var>x</var>) increments, all the code indented in the <dfn>loop</dfn> will run.</p>
-            <h3>For loops:</h3>
+            <h3>While loops:</h3>
             <div class="codeBox">
                 <var>i</var> = <span class="numberHL">1</span>
-                <span class="functionHL">while</span> <var>i</var> &lt; <span class="numberHL">6</span>:
+                <span class="keywordHL">while</span> <var>i</var> &lt; <span class="numberHL">6</span>:
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<var>i</var>)
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">if</span> <var>i</var> == <span class="numberHL">3</span>:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordHL">if</span> <var>i</var> == <span class="numberHL">3</span>:
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="stringHL">"i equals 3"</span>)
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<var>i</var> += <span class="numberHL">1</span>
             </div>
@@ -98,10 +98,10 @@
                 <var>a</var> = <span class="numberHL">200</span>
                 <var>b</var> = <span class="numberHL">33</span>
                 <span class="keywordHL">if</span> <var>b</var> > <var>a</var>:
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordHL">print</span>(<span class="stringHL">"b is greater than a"</span>)
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="stringHL">"b is greater than a"</span>)
                 <span class="keywordHL">elif</span> <var>a</var> == <var>b</var>:
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keywordHL">print</span>(<span class="stringHL">"a and b are equal"</span>)
-                <span class="stringHL">else</span>:
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="stringHL">"a and b are equal"</span>)
+                <span class="keywordHL">else</span>:
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="stringHL">"a is greater than b"</span>)
             </div>
             <p>This might look complicated, but in reality it's pretty simple. First off we define <var>a</var> as 200 and <var>b</var> as 33.
