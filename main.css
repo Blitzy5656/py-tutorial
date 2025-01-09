@@ -59,7 +59,7 @@ hr {border: 2px solid white;}
     width:300%;
     animation: backgroundGradAnim /*calc(((5.555s  * 5.5) * .555) - (5.5555s * .55))*/ calc(55.555s * (5.55 - 5)) ease-in-out 0s infinite; /*The Cosmic Starfish*/
     height:100%;
-    background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color-light), var(--bg-color-dark)); 
+    background-image: linear-gradient(to right, var(--bg-color-dark) 0%, var(--bg-color) 12%, var(--bg-color-light) 24%, var(--bg-color) 36%, var(--bg-color-dark) 48%, var(--bg-color) 60%, var(--bg-color-light) 72%, var(--bg-color) 84%, var(--bg-color-dark) 96%, var(--bg-color) 100%); 
     position: fixed;
 }
 

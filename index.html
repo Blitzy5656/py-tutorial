@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="/main.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.svg"> <!--gotta give a quick shoutout to <dfn>, <samp>, and <var> for the massive help on the project-->
 </head>
+<!--the low taper fade meme is still MASSIVE-->
 <body>
     <div class="backgroundGradient"></div>
     <div class="container">
@@ -123,13 +124,13 @@
             <div class="codeBox consoleLog">
                 a and b are equal
             </div>
-            <p>You probably expected that, but just to make sure you know, here's what happened. We starrt with the if again, but since it's false we move on to the elif. We treat elifs much the same as normal ifs, so we check its condition and it's true, so we print that a equals b. And again, since the elif was true, we do not run the else statement.</p>
+            <p>You probably expected that, but just to make sure you know, here's what happened. We starrt with the <samp>if</samp> again, but since it's false we move on to the <samp>elif</samp>. We treat elifs much the same as normal ifs, so we check its condition and it's true, so we print that <span class="variableHL">a</span> equals <span class="variableHL">b</span>. And again, since the <samp>elif</samp> was true, we do not run the <samp>else</samp> statement.</p>
             <hr>
             <h2 id="Functions">Functions</h2>
             <p><dfn>Functions</dfn> are like a reusable bag or backpack. They contain code that can be resued any time you want. This is incredebly useful if you have a lot of code in different places that are similar. You can even add variables into functions for different outputs, which you can see below.</p> 
             <div class="codeBox">
-                def <span class="functionHL">name_function</span>(<var>fname</var>, <var>lname</var>):
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<var>fname</var> + <span class="stringHL">" "</span> + <var>lname</var>)
+                <span class="keywordHL">def</span> <span class="functionHL">name_function</span>(<var>fname</var>, <var>lname</var>):
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<var>fname</var> + " " + <var>lname</var>)
 
                 <span class="functionHL">name_function</span>(<span class="stringHL">"John"</span>, <span class="stringHL">"Doe"</span>)
             </div>
