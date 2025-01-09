@@ -169,7 +169,7 @@ var {
     color: rgb(168,50,113);
 }
 
-.stringHL {
+.stringHL, bdi {
     color: #e28038;
 }
 
