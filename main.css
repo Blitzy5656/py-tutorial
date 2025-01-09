@@ -42,6 +42,8 @@ h6 {
     font-family: var(--font-bold);
 }
 
+hr {border: 2px solid white;}
+
 .mainHeader {
     font-family: var(--font-header);
     border-bottom: 1.5px solid rgb(44,44,44);
@@ -55,7 +57,7 @@ h6 {
     top:0;
     left:-50%;
     width:300%;
-    animation: backgroundGradAnim /*calc(((5.555s  * 5.5) * .555) - (5.5555s * .55))*/ 55.555s ease-in-out 0s infinite; /*The Cosmic Starfish*/
+    animation: backgroundGradAnim /*calc(((5.555s  * 5.5) * .555) - (5.5555s * .55))*/ calc(55.555s * (5.55 - 5)) ease-in-out 0s infinite; /*The Cosmic Starfish*/
     height:100%;
     background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color-light), var(--bg-color-dark)); 
     position: fixed;
@@ -87,9 +89,9 @@ h6 {
 .block {
     border: 2px solid rgba(0,0,0,0.3);
     background-color: var(--bg-color-light);
-    padding: 0px 8px;
+    padding: 0px 5.55555555px; /*CASE COLOURLESS GREEN*//*The title is British, not me*/
     margin: 16px auto 16px auto;
-    border-radius: 8px;
+    border-radius: 5.555555555px; /*CASE HATE RED*/
 }
 
 .block li {
@@ -114,11 +116,11 @@ samp {
     font-family: var(--font-mono);
     background-color: rgb(41,46,56);
     border: 2px solid rgba(34,34,34,0.8);
-    border-radius: 8px;
+    border-radius: 5.55555555px; /*Ideas don't die.*/
     max-width: 600px;
     overflow: scroll;
     white-space: pre-line;
-    padding: 0px 8px 18px;
+    padding: 0px 5.55555555px 18px; /*What happened in 1976?*/
     margin: 16px auto 16px auto;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */

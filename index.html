@@ -133,9 +133,33 @@
 
                 <span class="functionHL">name_function</span>(<span class="stringHL">"John"</span>, <span class="stringHL">"Doe"</span>)
             </div>
-            
+            Outputs:
+            <div class="codeBox consoleLog">
+                John Doe
+            </div>
+            <p>This code probably seems confusing, but let's break it down.</p>
+            <ol>
+                <li><samp>def <span class="functionHL">name_function</span>(<var>fname</var>, <var>lname</var>):</samp>. This is the line that defines the function. We always start this with <dfn>def</dfn>, then the name of the function and some parentheses. The <var>fname</var> and <var>lname</var> are the function variables, and are always put in those parentheses.</li>
+                <li><samp><span class="functionHL">print</span>(<var>fname</var> + <span class="stringHL">" "</span> + <var>lname</var>)</samp>. This line is the content of our function, and what will be doen when we call our function. In this case we print out what we define for the <var>fname</var>, a space, and <var>lname</var>.</li>
+                <li><samp><span class="functionHL">name_function</span>(<span class="stringHL">"John"</span>, <span class="stringHL">"Doe"</span>)</samp>. This is where we call our function, and where the code actually runs. First we write the name of the function and then we put the values we want for <var>fname</var> and <var>lname</var> in the parentheses, which in this case is John for <var>fname</var> and Doe for <var>lname</var>. This will run our function with these variables, which is the print statement from before. </li>
+            </ol>
             <hr>
             <h2 id="Lists">Lists</h2>
+            <p>And finally, the last part of this lesson, lists. These are pretty much exaclty what they sound like, just a list of values stored like a variable. These values can be strings (letters), numbers, variables, or even other lists. Let's look at an example.</p>
+            <div class="codeBox">
+                fruits = ["apple", "banana", "cherry"]
+
+                <span class="functionHL">print</span>(<var>fruits</var>[<span class="numberHL">0</span>])
+                <span class="functionHL">print</span>(<var>fruits</var>[<span class="numberHL">1</span>])
+                <span class="functionHL">print</span>(<var>fruits</var>[<span class="numberHL">2</span>])
+            </div>
+            Outputs:
+            <div class="codeBox consoleLog">
+                apple
+                banana
+                cherry
+            </div>
+            
         </div>
      </div>
 </body>
