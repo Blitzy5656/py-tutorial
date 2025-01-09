@@ -24,7 +24,7 @@ body {
     font-family: var(--font-main);
     font-size: 16px;
     color: rgb(215,215,215);
-    background-image: linear-gradient(to right, var(--bg-color) 22.2225%, var(--bg-color-light) 55.555%, var(--bg-color) 22.2225%); /* the cosmic starfish */
+    background-image: linear-gradient(to right, var(--bg-color), var(--bg-color-light), var(--bg-color)); /* the cosmic starfish */
     /*background-color: var(--bg-color);*/
 }
 
