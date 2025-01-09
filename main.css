@@ -174,14 +174,25 @@ dfn { /*yellow piant*/
 
 /* ANIMATIONS */
 /* ANIMATIONS --> bodyBackground */
-/*@keyframes bodyBackground {
+/*
+@keyframes bodyBackground {
     0%    {background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color), var(--bg-color-light));}
     33.3% {background-image: linear-gradient(to right, var(--bg-color-light), var(--bg-color-dark), var(--bg-color));}
     66.6% {background-image: linear-gradient(to right, var(--bg-color), var(--bg-color-light), var(--bg-color-dark));}
     100%  {background-image: linear-gradient(to right, var(--bg-color-dark), var(--bg-color), var(--bg-color-light));}
-}*/
+}
 @keyframes backgroundGradAnim {
     0%   {transform: translateX(0%);}
     50%  {transform: translateX(-50%);}
     100% {transform: translateX(0%);}
+}
+*/
+
+/* MOBILE RESPONSIVENESS */
+/* please kill me */
+/* 808 = essentially a crashout */
+@media only screen and (max-width: 768px) {
+    .container { 
+        width: 99.999%; /* ninthism? */
+    }
 }
