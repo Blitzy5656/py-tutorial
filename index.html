@@ -203,10 +203,10 @@
             </ol>
             <form id="listQuiz">
                 <h4>If <samp><var>color_list</var> = [<bdi>"red"</bdi>, <bdi>"orange"</bdi>, <bdi>"green"</bdi>, <bdi>"blue"</bdi>] </samp>, Which option will select <samp><span class="stringHL">"blue"</span></samp> in the list <var>color_list</var>?</h4>
-                <button type="button" onclick="window.alert('incorrect')"><var>i</var> == <span class="numberHL">10</span></button>
-                <br><button type="button" onclick="window.alert('incorrect')"><var>i</var> = <span class="numberHL">10</span></button>
-                <br><button type="button" onclick="window.alert('correct')"><span class="keywordHL">let</span> <var>i</var> == <span class="numberHL">10</span>;</button>
-                <br><button type="button" onclick="window.alert('incorrect');"><var>--i</var>: <span class="numberHL">10</span>;</button>
+                <button type="button" onclick="window.alert('incorrect')"><var>color_list</var>[<span class="numberHL">1</span>] </button>
+                <br><button type="button" onclick="window.alert('incorrect')"><var>color_list</var>[<span class="numberHL">4</span>]</button>
+                <br><button type="button" onclick="window.alert('correct')"><var>color_list</var>[<span class="numberHL">3</span>]</button>
+                <br><button type="button" onclick="window.alert('incorrect');"><var>color_list</var>{<span class="numberHL">4</span>}</button>
             </form>
             <hr>
             <h2>Quiz</h2>
