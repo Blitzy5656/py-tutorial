@@ -50,6 +50,11 @@ hr {border: 2px solid white;}
     padding: 20px 12px 0px 12px;
     margin: 12px 0px 20px 0px;
 }
+button {
+    padding: 5.555555555555px; /*There Is No Antimemetics Division*/
+    background-color: #357B8C;
+    border-radius: 5.55555555555555555555555px; /*3125*/
+}
 
 /*-----background-----*/
 /*

@@ -59,6 +59,13 @@
               <li>Then, the next <samp>print()</samp> writes our variable onto the screen.</li>
               <li>Finally, the last <samp>print()</samp> writes "email(s)" onto the screen.</li>
             </ol>
+            <form id="variableQuiz">
+                Which option defines the variable <var>i</var> as <span class="numberHL">10</span>?
+                <br><button type="button" onclick="window.alert('incorrect')"><var>i</var> == <span class="numberHL">10</span></button>
+                <br><button type="button" onclick="window.alert('correct')"><var>i</var> = <span class="numberHL">10</span></button>
+                <br><button type="button" onclick="window.alert('incorrect')"><span class="keywordHL">let</span> <var>i</var> == <span class="numberHL">10</span>;</button>
+                <br><button type="button" onclick="window.alert('incorrect')"><var>--i</var>: <span class="numberHL">10</span>;</button>
+            </form>
             <hr>
             <h2 id="Loops">Loops (for, while)</h2>
             <p><dfn>Loops</dfn> are an incredibly important part of all code. They are used primarily to repeat sections of code 
