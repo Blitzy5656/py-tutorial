@@ -13,7 +13,7 @@
   </script>
 </head>
 <!--the low taper fade meme is still MASSIVE-->
-<body onload="codeAddress();">
+<body>
     <div class="backgroundGradient"></div>
     <div class="container">
         <div class="content">
@@ -66,10 +66,10 @@
             </ol>
             <form id="variableQuiz">
                 <h4>Which option defines the variable <var>i</var> as <span class="numberHL">10</span>?</h4>
-                <br><button type="button" onclick="window.alert('incorrect')"><var>i</var> == <span class="numberHL">10</span></button>
+                <button type="button" onclick="window.alert('incorrect')"><var>i</var> == <span class="numberHL">10</span></button>
                 <br><button type="button" onclick="window.alert('correct')"><var>i</var> = <span class="numberHL">10</span></button>
                 <br><button type="button" onclick="window.alert('incorrect')"><span class="keywordHL">let</span> <var>i</var> == <span class="numberHL">10</span>;</button>
-                <br><button type="button" onclick="window.alert('incorrect')"><var>--i</var>: <span class="numberHL">10</span>;</button>
+                <br><button type="button" onclick="codeAddress();"><var>--i</var>: <span class="numberHL">10</span>;</button>
             </form>
             <hr>
             <h2 id="Loops">Loops (for, while)</h2>
