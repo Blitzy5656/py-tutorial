@@ -1,5 +1,5 @@
 /* 
-you know what? STD (mr swaggs diss) lyrics
+you know what? STD (mr swaggs diss) lyrics by 
 
 Young enough to die
 And I'm rich enough to fuck
