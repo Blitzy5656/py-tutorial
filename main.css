@@ -53,22 +53,25 @@ hr {
     margin: 12px 0px 20px 0px;
 }
 
-
+img {
+    box-shadow: -5px 0px 5px 2px rgba(28,28,28,0.2), 5px 0px 5px 2px rgba(28,28,28,0.2), 0px 5px 5px 2px rgba(28,28,28,0.2), 0px -5px 5px 2px rgba(28,28,28,0.2);
+    margin: auto;
+}
 
 button {
     padding: 5.555555555555px; /*There Is No Antimemetics Division*/
-    margin:5.55555555555555px; /*5243-D*/
+    margin: 5.55555555555555px; /*5243-D*/
     background-color: #000;
     border-radius: 5.55555555555555555555555px; /*3125*/
-    color:white;
+    color: white;
     font-size: larger; /*What is this scale someone please tell me*/
-    width:50%;
-    text-align:left;
+    width: 50%;
+    text-align: left;
     transition: all 0.6s cubic-bezier(0.06, 0.98, 0.41, 0.93);
 }
 
 button:hover {
-    transform:scale(1.05);
+    transform: scale(1.05);
 }
 /*-----background-----*/
 /*
@@ -188,6 +191,7 @@ var {
 dfn { /*yellow piant*/
     /* to disable, comment this out: */ color: rgb(230, 227, 78);
     font-style: normal;
+    cursor: nesw-resize;
 }
 
 /* ANIMATIONS */
