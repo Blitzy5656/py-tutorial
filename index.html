@@ -5,7 +5,7 @@
   <meta charset="utf-8">                                           <!--should have written this in sass fr fr ong ts pmo me off rn-->
   <meta name="viewport" content="width=device-width">              
   <link href="/main.css" rel="stylesheet" type="text/css" />       <!--web design is my *passion*-->
-  <link rel="icon" type="image/x-icon" href="/images/favicon.svg"> <!--gotta give a quick shoutout to <dfn>, <samp>, and <var> for the massive help on the project-->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.svg"> <!--gotta give a quick shoutout to <dfn>, <samp>, &nbsp;, <var>, and sometimes <bdi> for the massive help on the project-->
   <script type="text/javascript">
         function friendlyReminder() {
             alert('You lost the game!');
@@ -110,11 +110,39 @@
             <p><samp>While loops</samp> run the code indented below them until the condition specified (<samp>i &lt; 6</samp> in this case) is false. This can be used to create an infinite <dfn>loop</dfn> (<samp>While True:</samp>), though this can be a stress to your computer and is generally considered bad practice.</p>
 <!--QUIZ FOR LOOPS-->
             <form id="loopQuiz">
-                <h4></h4>
-                <button type="button" onclick="window.alert('incorrect')"></button>
-                <br><button type="button" onclick="window.alert('correct')"></button>
-                <br><button type="button" onclick="window.alert('incorrect')"></button>
-                <br><button type="button" onclick="window.alert('incorrect')"></button>
+                <h4>What is the result of the following code?</h4>
+                <div class="codeBox">
+                    for x in range(3):
+                        print(x)
+                </div>
+                <button type="button" onclick="window.alert('incorrect')">
+                    <div class="codeBox consoleLog">
+                        0
+                        1
+                        2
+                        3
+                    </div>
+                </button>
+                <br><button type="button" onclick="window.alert('correct')">
+                    <div class="codeBox consoleLog">
+                        0
+                        1
+                        2
+                    </div>
+                </button>
+                <br><button type="button" onclick="window.alert('incorrect')">
+                    <div class="codeBox consoleLog">
+                        1
+                        2
+                        3
+                    </div>
+                </button>
+                <br><button type="button" onclick="window.alert('incorrect')">
+                    <div class="codeBox consoleLog">
+                        1
+                        2
+                    </div>
+                </button>
             </form>
             <hr>
             <h2 id="Conditionals">Conditionals (if-else statements)</h2>
@@ -148,11 +176,17 @@
             <p>You probably expected that, but just to make sure you know, here's what happened. We starrt with the <samp>if</samp> again, but since it's false we move on to the <samp>elif</samp>. We treat elifs much the same as normal ifs, so we check its condition and it's true, so we print that <span class="variableHL">a</span> equals <span class="variableHL">b</span>. And again, since the <samp>elif</samp> was true, we do not run the <samp>else</samp> statement.</p>
 <!--QUIZ FOR CONDITIONALS-->
             <form id="conditionalQuiz">
-                <h4></h4>
-                <button type="button" onclick="window.alert('incorrect')"></button>
-                <br><button type="button" onclick="window.alert('correct')"></button>
-                <br><button type="button" onclick="window.alert('incorrect')"></button>
-                <br><button type="button" onclick="window.alert('incorrect')"></button>
+                <h4>What is the result of the following code?</h4>
+                <div class="codeBox">
+                    <var>x</var> = <span class="numberHL">5</span>
+                    <var>y</var> = <span class="numberHL">8</span>
+                    if <var>x</var> &gt; <var>y</var>:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<bdi>'Hello'</bdi>)
+                    else:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<bdi>'Welcome'</bdi>)
+                </div>
+                <button type="button" onclick="window.alert('incorrect')">Hello</button>
+                <br><button type="button" onclick="window.alert('correct')">Welcome</button>
             </form>
             <hr>
             <h2 id="Functions">Functions</h2>
@@ -175,11 +209,11 @@
             </ol>
 <!--QUIZ FOR FUNCTIONS-->
             <form id="functionQuiz">
-                <h4></h4>
-                <button type="button" onclick="window.alert('incorrect')"></button>
-                <br><button type="button" onclick="window.alert('correct')"></button>
-                <br><button type="button" onclick="window.alert('incorrect')"></button>
-                <br><button type="button" onclick="window.alert('incorrect')"></button>
+                <h4>What is the correct word for defining functions in python?</h4>
+                <button type="button" onclick="window.alert('incorrect')">function</button>
+                <br><button type="button" onclick="window.alert('incorrect')">func</button>
+                <br><button type="button" onclick="window.alert('correct')">def</button>
+                <br><button type="button" onclick="window.alert('incorrect')">let</button>
             </form>
             <hr>
             <h2 id="Lists">Lists</h2>
