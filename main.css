@@ -54,7 +54,8 @@ hr {
 }
 
 img {
-    box-shadow: -5px 0px 5px 2px rgba(28,28,28,0.2), 5px 0px 5px 2px rgba(28,28,28,0.2), 0px 5px 5px 2px rgba(28,28,28,0.2), 0px -5px 5px 2px rgba(28,28,28,0.2);
+    box-shadow: -5px 0px 5px 2px rgba(0,0,0,0.2), 5px 0px 5px 2px rgba(0,0,0,0.2), 0px 5px 5px 2px rgba(0,0,0,0.2), 0px -5px 5px 2px rgba(0,0,0,0.2);
+    border: 3px solid var(--bg-color-light);
     margin: auto;
     display: block;
     max-width: 700px;
