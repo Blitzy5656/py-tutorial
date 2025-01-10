@@ -33,6 +33,7 @@
                 </ol>
             </div>
             <hr>
+<!--Variables-->
             <h2 id="variables">Variables</h2>
             <p>One of the most important things in any programming language
             are called <dfn>variables</dfn>. You can think of <dfn>variables</dfn>
@@ -43,6 +44,8 @@
 
                 <span class="functionHL">print</span>(<span class="stringHL">"You have:"</span> + <var>emails</var> + <span class="stringHL">"email(s)"</span>)
             </div>
+            If you want, <a href="javascript:;" onclick="document.getElementById('flowchartVariable').style.display = 'block';">here</a> is a flowchart that follows what the above code does.
+            <img src="images/flowcharts/variables.png" id="flowchartVariable" style="display:none;">
             <p>This may be a little confusing so let me break it down for you.</p>
             <p>First, at the very start of the program, we set the <dfn>variable</dfn> like this:</p> 
             <ol>
@@ -62,8 +65,7 @@
               <li>Then, the next <samp>print()</samp> writes our variable onto the screen.</li>
               <li>Finally, the last <samp>print()</samp> writes "email(s)" onto the screen.</li>
             </ol>
-            <h3>This is a flowchart explaining how variable are created and used:</h3>
-            <img src="images/flowcharts/variables.png">
+            <p>If you want to explore these concepts more, <a href="https://app.edublocks.org/project/74CkQqWi8TR0KQVHFGcxBaIyn382/bIpOPRG2MddohkihJUIX?clone=true">here</a> is the above code in blocks fro you to edit. Try to play around with using different variable values, like numbers.</p>
 <!--QUIZ FOR VARIABLES-->
             <form id="variableQuiz">
                 <h4>Which option defines the variable <var>i</var> as <span class="numberHL">10</span>?</h4>
@@ -73,6 +75,7 @@
                 <br><button type="button" onclick="window.alert('incorrect')"><var>--i</var>: <span class="numberHL">10</span>;</button>
             </form>
             <hr>
+<!--Loops-->
             <h2 id="Loops">Loops (for, while)</h2>
             <p><dfn>Loops</dfn> are an incredibly important part of all code. They are used primarily to repeat sections of code 
                 multiple times without writing it multiple times. There are two different types of <dfn>loops</dfn>, which are both shown below.</p>
@@ -88,9 +91,11 @@
                 4
                 5
             </div>
+            If you want, <a href="javascript:;" onclick="document.getElementById('flowchartLoopFor').style.display = 'block';">here</a> is a flowchart that follows what the above code does.
+            <img src="images/flowcharts/loops/for.png" id="flowchartLoopFor" style="display:none;">
             <p>If you couldn't tell, <samp>for loops</samp> will take a variable, in this case <var>x</var>, and repeat it through a <dfn>function</dfn> or string, which is <samp>range(2,6)</samp> here. Every time the <dfn>variable</dfn> (<var>x</var>) increments, all the code indented in the <dfn>loop</dfn> will run.</p>
             <h3>This is a flowchart explaining how for loops are created and used:</h3>
-            <img src="images/flowcharts/loops/for.png">
+            <img src="">
             <h3>While loops:</h3>
             <div class="codeBox">
                 <var>i</var> = <span class="numberHL">1</span>
@@ -109,9 +114,9 @@
                 4
                 5
             </div>
+            If you want, <a href="javascript:;" onclick="document.getElementById('flowchartLoopWhile').style.display = 'block';">here</a> is a flowchart that follows what the above code does.
+            <img src="images/flowcharts/loops/while.png" id="flowchartLoopWhile" style="display:none;">
             <p><samp>While loops</samp> run the code indented below them until the condition specified (<samp>i &lt; 6</samp> in this case) is false. This can be used to create an infinite <dfn>loop</dfn> (<samp>While True:</samp>), though this can be a stress to your computer and is generally considered bad practice.</p>
-            <h3>This is a flowchart explaining how while loops are created and used:</h3>
-            <img src="images/flowcharts/loops/while.png">
 <!--QUIZ FOR LOOPS-->
             <form id="loopQuiz">
                 <h4>What is the result of the following code?</h4>
