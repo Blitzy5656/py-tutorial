@@ -158,8 +158,9 @@
                 <span class="keywordHL">else</span>:
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="stringHL">"a is greater than b"</span>)
             </div>
-            <p>This might look complicated, but in reality it's pretty simple. First off we define <var>a</var> as 200 and <var>b</var> as 33.
+            <p>This might look complicated, but in reality it's pretty simple. If you want, <a href="javascript:;" onclick="document.getElementById('flowchartConditional').style.display = 'block';">here</a> is a flowchart that follows what the above code does. First off we define <var>a</var> as 200 and <var>b</var> as 33.
             Then we get to the first <samp>if</samp> statement (<samp>if b &gt; a</samp>), which is going to run the code indented below if the condition is true, which in this case it won't because <var>b</var> isn't greater than <var>a</var>. Now the next statement, the <samp>elif</samp> is a combined else and if statement. This means that it will run if the condition in the if statement (<samp>b &gt; a</samp>) isn't true, AND if the condition in the elif (<samp>a == b</samp>) is true. Keep in mind that in python you use double equals (==) for an if statement, since a single equals sign will change one value to another, i.e. <samp>a = 10</samp> changes the value of <var>a</var> to 10, while <samp>a == 10</samp> returns true if <var>a</var> is equal to 10. Finally, the last statement, the <samp>else:</samp> line. This will run if the if, or in this case elif, returns false. 
+            <br><img src="images/flowcharts/conditionals.png" id="flowchartConditional" style="display:none;">
             <br><br> So let's see this in action! With <var>a</var> equal to 200 and <var>b</var> to 33, we get the following result: </p>
             <div class="codeBox consoleLog">
                 a is greater than b
@@ -174,8 +175,6 @@
             <div class="codeBox consoleLog">
                 a and b are equal
             </div>
-            If you want, <a href="javascript:;" onclick="document.getElementById('flowchartConditional').style.display = 'block';">here</a> is a flowchart that follows what the above code does.
-            <br><img src="images/flowcharts/conditionals.png" id="flowchartConditional" style="display:none;">
             <p>You probably expected that, but just to make sure you know, here's what happened. We start with the <samp>if</samp> again, but since it's false we move on to the <samp>elif</samp>. We treat elifs much the same as normal ifs, so we check its condition and it's true, so we print that <span class="variableHL">a</span> equals <span class="variableHL">b</span>. And again, since the <samp>elif</samp> was true, we do not run the <samp>else</samp> statement.</p>
             <br><p>If you want to explore these concepts more, <a target="_blank" href="https://app.edublocks.org/project/74CkQqWi8TR0KQVHFGcxBaIyn382/NjVCLLRP5sf9TlzINFRV?clone=true">here</a> is the above code in blocks for you to edit. Try to play around with using different variable values, like numbers.</p>
 <!--QUIZ FOR CONDITIONALS-->
@@ -258,11 +257,9 @@
                 <br><button type="button" onclick="window.alert('incorrect');"><var>color_list</var>{<span class="numberHL">4</span>}</button>
             </form>
             <hr>
-            <h2>Quiz</h2>
-            <hr>
             <h2>Conclusion</h2>
             Thank you for experiencing <!--i no joke had to make sure i was spelling that right--> our tutorial. If you are intersted, here is the source code: <a href="https://github.com/Blitzy5656/py-tutorial" target="_blank">Source</a>.
         </div>
      </div>
 </body>
-</html> <!--the github repo has the best commit messages and you cant tell us otherwise-->
+</html> <!--the github repo has the best commit messages and you can't tell us otherwise-->
