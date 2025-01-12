@@ -51,10 +51,9 @@
             <ol>
                 <li>Type the <dfn>variable's</dfn> name. This MUST start with either an upper/lowercase character or 
             an underscore (_)</li>
-                <li>Type a space.</li>
                 <li>Type an equals sign (=). This assigns the <dfn>variable<dfn> with its property. You can think of it 
                 like labeling a box.</li>
-                <li>Type your <dfn>variable</dfn>. This can be a number, like in the example above, a string of text (remember to enclose
+                <li>Type your <dfn>value</dfn> you want to assign to the <dfn>variable</dfn>. This can be a number, like in the example above, a string of text (remember to enclose
                 that string of text in either single ('') or double ("") quotes), or another <dfn>variable</dfn>.</li>
             </ol>
             <p>What does the <samp>print()</samp> function do? This <dfn>function</dfn> simply
@@ -154,7 +153,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="functionHL">print</span>(<span class="stringHL">"a is greater than b"</span>)
             </div>
             <p>This might look complicated, but in reality it's pretty simple. If you want, <a href="javascript:;" onclick="document.getElementById('flowchartConditional').style.display = 'block';">here</a> is a flowchart that follows what the above code does. First off we define <var>a</var> as 200 and <var>b</var> as 33.
-            Then we get to the first <samp>if</samp> statement (<samp>if b &gt; a</samp>), which is going to run the code indented below if the <dfn>condition is true</dfn>. In this case it won't because <var>b</var> isn't greater than <var>a</var>. Now the next statement, the <samp>elif</samp> is a <dfn>combined else and if statement</dfn>. This means that it will run if the condition in the if statement (<samp>b &gt; a</samp>) is false, <dfn>AND</dfn> if the condition in the elif (<samp>a == b</samp>) is true. Keep in mind that in python you use <dfn>double equals</dfn> (==) for checking if <dfn>one value is equal to another</dfn>. If you use a <dfn>single equals sign</dfn> (=) the computer will <dfn>change the first value to the second</dfn>, like when you define a variable (i.e. <samp>a = 10</samp> changes the value of <var>a</var> to 10, instead of just checking if <var>a</var> is equal to 10, while <samp>a == 10</samp> returns true if <var>a</var> is equal to 10). Finally, the last statement, the <samp>else:</samp> line. This will run if all the previous conditions are false. 
+            Then we get to the first <samp>if</samp> statement (<samp>if b &gt; a</samp>), which is going to run the code indented below if the <dfn>condition is true</dfn>. In this case it won't because <var>b</var> isn't greater than <var>a</var>. Now the next statement, the <samp>elif</samp> is a <dfn>combined else and if statement</dfn>. This means that it will run if the condition in the if statement (<samp>b &gt; a</samp>) is false, <dfn>AND</dfn> if the condition in the elif (<samp>a == b</samp>) is true. Keep in mind that in Python you use <dfn>double equals</dfn> (==) for checking if <dfn>one value is equal to another</dfn>. If you use a <dfn>single equals sign</dfn> (=) the computer will <dfn>change the first value to the second</dfn>, like when you define a variable (i.e. <samp>a = 10</samp> changes the value of <var>a</var> to 10, instead of just checking if <var>a</var> is equal to 10, while <samp>a == 10</samp> returns true if <var>a</var> is equal to 10). Finally, the last statement, the <samp>else:</samp> line. This will run if all the previous conditions are false. 
             <br><img src="images/flowcharts/conditionals.png" id="flowchartConditional" style="display:none;">
             <br><br> So let's see this in action! With <var>a</var> <dfn>equal to</dfn> 200 and <var>b</var> to 33, we get the following result: </p>
             <div class="codeBox consoleLog">
@@ -210,7 +209,7 @@
             <br><p>If you want to explore these concepts more, <a target="_blank" href="https://app.edublocks.org/project/74CkQqWi8TR0KQVHFGcxBaIyn382/RtDngcOOLnDdFkwkzxYZ?clone=true">here</a> is the above code in blocks for you to edit. Try to make a new function that adds two numbers together.</p>
 <!--QUIZ FOR FUNCTIONS-->
             <form id="functionQuiz">
-                <h4>What is the correct word for defining functions in python?</h4>
+                <h4>What is the correct word for defining functions in Python?</h4>
                 <button type="button" onclick="window.alert('incorrect')">function</button>
                 <br><button type="button" onclick="window.alert('incorrect')">func</button>
                 <br><button type="button" onclick="window.alert('correct')">def</button>
