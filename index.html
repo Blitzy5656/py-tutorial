@@ -156,17 +156,17 @@
             <p>This might look complicated, but in reality it's pretty simple. If you want, <a href="javascript:;" onclick="document.getElementById('flowchartConditional').style.display = 'block';">here</a> is a flowchart that follows what the above code does. First off we define <var>a</var> as 200 and <var>b</var> as 33.
             Then we get to the first <samp>if</samp> statement (<samp>if b &gt; a</samp>), which is going to run the code indented below if the <dfn>condition is true</dfn>. In this case it won't because <var>b</var> isn't greater than <var>a</var>. Now the next statement, the <samp>elif</samp> is a <dfn>combined else and if statement</dfn>. This means that it will run if the condition in the if statement (<samp>b &gt; a</samp>) is false, <dfn>AND</dfn> if the condition in the elif (<samp>a == b</samp>) is true. Keep in mind that in python you use <dfn>double equals</dfn> (==) for checking if <dfn>one value is equal to another</dfn>. If you use a <dfn>single equals sign</dfn> (=) the computer will <dfn>change the first value to the second</dfn>, like when you define a variable (i.e. <samp>a = 10</samp> changes the value of <var>a</var> to 10, instead of just checking if <var>a</var> is equal to 10, while <samp>a == 10</samp> returns true if <var>a</var> is equal to 10). Finally, the last statement, the <samp>else:</samp> line. This will run if all the previous conditions are false. 
             <br><img src="images/flowcharts/conditionals.png" id="flowchartConditional" style="display:none;">
-            <br><br> So let's see this in action! With <var>a</var> equal to 200 and <var>b</var> to 33, we get the following result: </p>
+            <br><br> So let's see this in action! With <var>a</var> <dfn>equal to</dfn> 200 and <var>b</var> to 33, we get the following result: </p>
             <div class="codeBox consoleLog">
                 a is greater than b
             </div>
-            <p>Let's work through this. First the computer goes to the if statement and checks if <samp>b &gt; a</samp>, which it isn't, so it move on to the elif. this also returns false becuase 200 does not equal 33. this leaves only the else statement, which prints out
-                that a is greater than b. Notice that we didn't check if a was actually greater than b, because we know it has to be if both b &gt; a and a == b aren't true. Now let's try with different numbers, say a = 2 and b = 10.
+            <p>Let's work through this. First the computer goes to the <dfn>if statement</dfn> and checks if <samp>b &gt; a</samp>, which it isn't, so it move on to the <samp>elif</samp>. this also returns <dfn>false</dfn> becuase 200 does <dfn>not equal</dfn> 33. this leaves only the <samp>else</samp> statement, which prints out
+                that <var>a</var> is <dfn>greater than</dfn> <var>b</var>. Notice that we didn't check if <var>a</var>> was actually greater than <var>b</var>, because we know it has to be <dfn>true</dfn> if both <samp>b &gt; a</samp> and <samp>a == b</samp> aren't true. Now let's try with different numbers, say <var>a</var> = 2 and <var>b</var> = 10.
             </p>
             <div class="codeBox consoleLog">
                 b is greater than a
             </div>
-            <p> Here we still start with the first if, but this time it returns true, so we run that first print statement, and since that if returned true, the computer doesn't run the elif or the else. Finally, if a and b were both the same number, say 20, what would happen?</p>
+            <p> Here we still start with the first <samp>if</samp>, but this time it returns <dfn>true</dfn>, so we run that first print statement, and since that if returned <dfn>true</dfn>, the computer doesn't run the <samp>elif</samp> or the <samp>else</samp>. Finally, if <var>a</var> and <var>b</var> were both the <dfn>same</dfn> number, say 20, what would happen?</p>
             <div class="codeBox consoleLog">
                 a and b are equal
             </div>
