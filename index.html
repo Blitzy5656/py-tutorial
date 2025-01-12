@@ -36,7 +36,7 @@
 <!--Variables-->
             <h2 id="variables">Variables</h2>
             <p>One of the most important things in any programming language
-            are called <dfn>variables</dfn>. You can think of <dfn>variables</dfn>
+            are called <dfn>variables</dfn>. In python, and many other programming languages, you can set a <dfn>variable</dfn> to a certain <dfn>value</dfn>, which can then be accessed by typing out the variable's name later. You can think of <dfn>variables</dfn>
             as if they were a box with stuff in them. Here is an example of 
             how a <dfn>variable</dfn> might be used in a real program:</p>
             <div class="codeBox">
@@ -75,8 +75,8 @@
             <hr>
 <!--Loops-->
             <h2 id="Loops">Loops (for, while)</h2>
-            <p><dfn>Loops</dfn> are an incredibly important part of all code. They are used primarily to repeat sections of code 
-                multiple times without writing it multiple times. There are two different types of <dfn>loops</dfn>, which are both shown below.</p>
+            <p><dfn>Loops</dfn> are an incredibly important part of all code. They are used primarily to <dfn>repeat sections of code</dfn> 
+                multiple times without having to write it out over and over. There are two different types of <dfn>loops</dfn>, which are both shown below.</p>
             <h3>For loops:</h3>
             <div class="codeBox">
                 <span class="keywordHL">for</span> <var>i</var> <span class="keywordHL">in</span> <span class="functionHL">range</span>(<span class="numberHL">2</span>, <span class="numberHL">6</span>):
@@ -91,8 +91,8 @@
             </div>
             If you want, <a href="javascript:;" onclick="document.getElementById('flowchartLoopFor').style.display = 'block';">here</a> is a flowchart that follows what the above code does.
             <br><img src="images/flowcharts/loops/for.png" id="flowchartLoopFor" style="display:none;">
-            <p>If you couldn't tell, <samp>for loops</samp> will take a variable, in this case <var>i</var>, and repeat it through a <dfn>function</dfn> or string, which is <samp>range(2,6)</samp> here. Every time the <dfn>variable</dfn> (<var>i</var>) increments, all the code indented in the <dfn>loop</dfn> will run.</p>
-            <br><p>If you want to explore these concepts more, <a target="_blank" href="https://app.edublocks.org/project/74CkQqWi8TR0KQVHFGcxBaIyn382/peO1PGXOpEVbasvgVQgo?clone=true">here</a> is the above code in blocks for you to edit. Try replacing that for loop with another one, using a string instead of the range.</p>
+            <p>If you couldn't tell, <samp>for loops</samp> will take a <dfn>variable</dfn>, in this case <var>i</var>, and repeat it through a <dfn>function</dfn> or <dfn>string</dfn>, which is <samp>range(2,6)</samp> here. Every time the <dfn>variable</dfn> (<var>i</var>) increments, all the code indented inside the <dfn>loop</dfn> will run.</p>
+            <br><p>If you want to explore these concepts more, <a target="_blank" href="https://app.edublocks.org/project/74CkQqWi8TR0KQVHFGcxBaIyn382/peO1PGXOpEVbasvgVQgo?clone=true">here</a> is the above code in blocks for you to edit. Try replacing that for loop with another one, and <dfn>using a string in the for loop instead of the range function.</dfn></p>
             <h3>While loops:</h3>
             <div class="codeBox">
                 <var>i</var> = <span class="numberHL">1</span>
@@ -110,7 +110,7 @@
             </div>
             If you want, <a href="javascript:;" onclick="document.getElementById('flowchartLoopWhile').style.display = 'block';">here</a> is a flowchart that follows what the above code does.
             <br><img src="images/flowcharts/loops/while.png" id="flowchartLoopWhile" style="display:none;">
-            <p><samp>While loops</samp> run the code indented below them as long as the condition specified (<samp>i &lt; 6</samp> in this case) is true. This can be used to create an infinite <dfn>loop</dfn> (<samp>While True:</samp>), though this can be a stress to your computer and is generally considered bad practice.</p>
+            <p><samp>While loops</samp> run the code indented inside them as long as the <dfn>condition specified</dfn> (<samp>i &lt; 6</samp> in this case) is <dfn>true.</dfn> This can be used to create an <dfn>infinite loop</dfn> using the code <samp>While True:</samp>, since the value of <dfn>True</dfn> is always going to be <dfn>true</dfn>. Using <samp>While True:</samp> can be a stress to your computer and is generally considered <dfn>bad practice</dfn>.</p>
             <br><p>If you want to explore these concepts more, <a target="_blank" href="https://app.edublocks.org/project/74CkQqWi8TR0KQVHFGcxBaIyn382/DcRRTcQ4wgsjBGWW3469?clone=true">here</a> is the above code in blocks for you to edit. Try to play around with using different variable values, like numbers. Try using different condtions in the while loop instead of <samp>i &lt; 6</samp></p>
 <!--QUIZ FOR LOOPS-->
             <form id="loopQuiz">
@@ -142,7 +142,7 @@
             </form>
             <hr>
             <h2 id="Conditionals">Conditionals (if-else statements)</h2>
-            <p><dfn>Conditionals</dfn> tell your computer whether or not to do something based on parameters inside the conditional. The most common types of <dfn>conditionals</dfn> are <samp>if</samp> and <samp>if-else</samp> statements. </p>
+            <p><dfn>Conditionals</dfn> tell your computer whether or not to do something based on <dfn>parameters</dfn> inside the conditional. The most common types of <dfn>conditionals</dfn> are <samp>if</samp> and <samp>if-else</samp> statements. </p>
             <div class="codeBox">
                 <var>a</var> = <span class="numberHL">200</span>
                 <var>b</var> = <span class="numberHL">33</span>
