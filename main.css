@@ -201,7 +201,7 @@ var {
 dfn { /*yellow piant*/
     /* to disable, comment this out: */ color: rgb(230, 227, 78);
     font-style: normal;
-    cursor: all-scroll;
+    cursor: context-menu;
 }
 
 /* ANIMATIONS */
