@@ -225,6 +225,6 @@ dfn { /*yellow piant*/
 /* 808 = essentially a crashout */
 @media only screen and (max-width: 768px) {
     .container { 
-        width: 99.999%; /* ninthism? */
+        width: 88.888888%; /* eighthism? */
     }
 }
